@@ -1,24 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import About from "./pages/About";
+import OurMission from "./pages/OurMission";
+import Shop from "./pages/Shop";
+import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
+import ProductDetail from "./pages/ProductDetail";
+import TermsAndConditions from "./pages/TermsAndConditions";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/ourmission" element={<OurMission />} />
+          <Route path="/shop" element={<Shop />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/product" element={<ProductDetail />} />
+          <Route path="/terms" element={<TermsAndConditions />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }

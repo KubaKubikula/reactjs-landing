@@ -1,0 +1,18 @@
+.contentArticleText {
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 70px;
+  width: 400px;
+  justify-content: center;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionHeadline {
+  font-size: 40px;
+}

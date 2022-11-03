@@ -1,0 +1,25 @@
+.bottomGooglePlayButton {
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.buttonPlayStore {
+  width: 200px;
+  transition: all 0.3s;
+}
+
+.buttonPlayStore:hover {
+  cursor: pointer;
+  width: 220px;
+}

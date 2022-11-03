@@ -1,0 +1,21 @@
+.wrapper {
+  width: 350px;
+  padding: 10px;
+  margin: 10px;
+  transition: all 0.3s;
+  color: white;
+  text-decoration: none;
+}
+#text {
+  color: white;
+  text-decoration: none !important;
+}
+
+.wrapper:hover {
+  background-color: rgb(48, 48, 48);
+  cursor: pointer;
+}
+
+.image {
+  border-radius: 5px;
+}

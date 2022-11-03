@@ -1,0 +1,97 @@
+img {
+  width: 100%;
+  height: auto;
+}
+
+.phoneAndButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  padding: 0 1rem;
+  padding-top: 10px;
+}
+
+.mainPart {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 10px;
+}
+
+.sectionHeadlineLogo {
+  margin: 0;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.sectionHeadline {
+  font-size: 40px;
+}
+
+.sectionHeadline,
+.sectionHeadlineP {
+  color: transparent;
+  transition: all 1.5s;
+  padding-top: 50px;
+}
+.sectionHeadlineP {
+  padding-bottom: 20px;
+}
+
+.buttonPlayStore {
+  width: 200px;
+  transition: all 0.3s;
+}
+
+.buttonPlayStore:hover {
+  cursor: pointer;
+  width: 220px;
+}
+
+.buttonPhone {
+  width: 300px;
+}
+
+.buttonPhoneSmall {
+  width: 300px;
+}
+
+.contentArticle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.articleReverse {
+  flex-direction: column-reverse;
+  background-color: #222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contentArticleDiv,
+.articleReverseDiv {
+  width: 100%;
+}
+
+.contentArticleText,
+.articleReverseText {
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 700px) {
+  .buttonPhone {
+    width: 400px;
+  }
+}

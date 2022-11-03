@@ -1,0 +1,9 @@
+.wrapper {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  top: 50px;
+  padding: 10px;
+  padding-right: 20px;
+}
